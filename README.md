@@ -11,7 +11,7 @@ Apache JMeter: Download and install Apache JMeter from the official website [Apa
 Follow the link > Source > Download the ZIP file.
 
 ## Now JMeter plugins to run the test for a KAFKA Cluster:
-In Apache JMeter, you can manage plugins using the JMeter Plugins Manager. The Plugins Manager is a convenient tool that allows you to install, uninstall, and update JMeter plugins esier.
+In Apache JMeter, you can manage plugins using the JMeter Plugins Manager. The Plugins Manager is a convenient tool that allows you to install, uninstall, and update JMeter plugins more easily.
 ### To Download the Plugins Manage follow the link [here](https://jmeter-plugins.org/install/Install/) 
 Download the JAR file and move it to this path 
 ```
@@ -19,10 +19,21 @@ apache-jmeter-x.x.x / lib / ext
 ```
 First, download the Plugins Manager  From this link (https://jmeter-plugins.org/install/Install/)
 The easiest way to get the plugins is to install Plugins Manager. 
-1- pepper-box:
-is a plugin for Apache JMeter that enhances its functionality for load testing Kafka messaging systems. It provides features such as a Kafka Producer for sending messages, a Kafka Consumer for consuming messages, partition distribution for realistic message distribution, load generation for high loads on Kafka topics, and metrics reporting for performance analysis. It enables JMeter to simulate high-performance messaging and streaming workloads in Kafka.
-follow the link to downlaod pepper-box plugin
-[Download pepper-box From Github ](https://github.com/GSLabDev/pepper-box)
+#### 1- pepper-box:
+- Build the pepper-box JAR file from the source found [here](https://github.com/GSLabDev/pepper-box)
+- Copy the JAR file to your JMeter lib/ext folder.
+  
+Once installed you have a couple of Config Elements and a Sampler and it
+
+#### 2- KLoadgen:
+is a plugin designed to work with AVRO Schema Registries.
+- Build the pepper-box JAR file from the source found [Here](https://github.com/sngular/kloadgen)
+- Copy the JAR file to your JMeter lib/ext folder.
+- You can follow the steps [How to run a test plan](https://github.com/sngular/kloadgen/wiki/how-to-run#how-to-run-a-test-plan) to start the Test.
+  
+-------------------
+## How to build a JAR file from the Maven project:
+
 
 Kafka JMeter Plugin: Download the Kafka JMeter plugin from the following GitHub repository (https://github.com/Blazemeter/kafka-jmeter) ↗) and place it in the JMeter's "lib/ext" directory.
 
