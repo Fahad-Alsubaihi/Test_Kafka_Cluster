@@ -20,7 +20,8 @@ apache-jmeter-x.x.x / lib / ext
 First, download the Plugins Manager  From this link (https://jmeter-plugins.org/install/Install/)
 The easiest way to get the plugins is to install Plugins Manager. 
 1- pepper-box:
-
+is a plugin for Apache JMeter that enhances its functionality for load testing Kafka messaging systems. It provides features such as a Kafka Producer for sending messages, a Kafka Consumer for consuming messages, partition distribution for realistic message distribution, load generation for high loads on Kafka topics, and metrics reporting for performance analysis. It enables JMeter to simulate high-performance messaging and streaming workloads in Kafka.
+follow the link to downlaod pepper-box plugin
 [Download pepper-box From Github ](https://github.com/GSLabDev/pepper-box)
 
 Kafka JMeter Plugin: Download the Kafka JMeter plugin from the following GitHub repository (https://github.com/Blazemeter/kafka-jmeter) ↗) and place it in the JMeter's "lib/ext" directory.
