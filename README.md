@@ -10,7 +10,7 @@ This document will guide you through the process of using JMeter to test a Kafka
 Apache JMeter: Download and install Apache JMeter from the official website [Apache JMeter Download](https://jmeter.apache.org/download_jmeter.cgi)
 Follow the link > Source > Download the ZIP file.
 
-## Now JMeter plugins to run the test for a KAFKA Cluster:
+## Install JMeter plugins to run the test for a KAFKA Cluster:
 In Apache JMeter, you can manage plugins using the JMeter Plugins Manager. The Plugins Manager is a convenient tool that allows you to install, uninstall, and update JMeter plugins more easily.
 ### To Download the Plugins Manage follow the link [here](https://jmeter-plugins.org/install/Install/) 
 Download the JAR file and move it to this path 
